@@ -8,3 +8,4 @@ ls na 	Display current directory contents
 	hidden files (starting with .)
 mkdir 	Creates directory 
 mv 	Move files from one location to another
+rm	delete files
