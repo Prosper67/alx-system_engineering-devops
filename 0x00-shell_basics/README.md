@@ -19,3 +19,4 @@ mv [[:upper:]]* /tmp/u move files beginning with uppercase to the directory.
 rm *~ delete all files in current working directory that ends with character 
 mkdir -p welcome/to/school creates directories
 ls -map | sort -d 	list all files of current directory, seperated by commas
+0 string SCHOOL School data !:mime School 	magic file that can be used with command "file" to detect school data files
