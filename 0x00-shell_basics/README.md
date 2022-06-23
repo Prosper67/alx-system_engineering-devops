@@ -12,3 +12,4 @@ rm	delete file
 rm -r 	delete a file or directory and its contents
 cd -	change working directory to the previous one
 ls -la . ../boot List all files, even one with names beginning with p		eriod character.
+file /tmp/file Prints type of file
