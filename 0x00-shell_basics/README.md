@@ -11,4 +11,4 @@ mv 	Move files from one location to another
 rm	delete file
 rm -r 	delete a file or directory and its contents
 cd -	change working directory to the previous one
-ls -al . ../boot List all files, even one with names beginning with period character.
+ls -la ../boot List all files, even one with names beginning with per		iod character.
