@@ -7,3 +7,4 @@ ls na Display current directory contents
 	long format
 	user and group IDs displayed numerically
 	hidden files (starting with .)
+mkdir /tmp/my_first_directory creates directory named my_first_directory in the /tmp directory
