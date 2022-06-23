@@ -14,4 +14,5 @@ cd -	change working directory to the previous one
 ls -la . ../boot List all files, even one with names beginning with p		eriod character.
 file /tmp/file Prints type of file
 ln -s /bin/ls-ls- Symbolic link
-cp -rua *.html ../ Copy all HTML files in the current working directory 
+cp -rua *.html ../ Copy all HTML files in the current working directory
+mv [[:upper:]]* /tmp/u move files beginning with uppercase to the directory. 
