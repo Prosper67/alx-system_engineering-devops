@@ -1,1 +1,2 @@
-Print working directory
+pwd Print working directory
+ls list of current directory
