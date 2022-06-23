@@ -1,10 +1,10 @@
-pwd Print working directory
-ls list of current directory
-cd change working directory
-ls -l Display current directory contents in long format
-ls -la Display current directory contents including hidden files (starting with .)
-ls na Display current directory contents
-	long format
+pwd 	Print working directory
+ls 	list of current directory
+cd 	change working directory
+ls -l 	Display current directory contents in long format
+ls -la 	Display current directory contents including hidden files (starting with .)
+ls na 	Display current directory contents
 	user and group IDs displayed numerically
 	hidden files (starting with .)
-mkdir /tmp/my_first_directory creates directory named my_first_directory in the /tmp directory
+mkdir 	Creates directory 
+mv 	Move files from one location to another
