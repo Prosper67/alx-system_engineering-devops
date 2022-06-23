@@ -1,4 +1,4 @@
 pwd Print working directory
 ls list of current directory
 cd change working directory
-less Display current content in long format
+ls -l Display current directory contents in long format
