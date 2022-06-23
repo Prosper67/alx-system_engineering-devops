@@ -13,4 +13,5 @@ rm -r 	delete a file or directory and its contents
 cd -	change working directory to the previous one
 ls -la . ../boot List all files, even one with names beginning with p		eriod character.
 file /tmp/file Prints type of file
--ln -s /bin/ls-ls- Symbolic link 
+ln -s /bin/ls-ls- Symbolic link
+cp -rua *.html ../ Copy all HTML files in the current working directory 
