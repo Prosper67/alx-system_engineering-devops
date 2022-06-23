@@ -17,4 +17,5 @@ ln -s /bin/ls-ls- Symbolic link
 cp -rua *.html ../ Copy all HTML files in the current working directory
 mv [[:upper:]]* /tmp/u move files beginning with uppercase to the directory.
 rm *~ delete all files in current working directory that ends with character 
-mkdir -p welcome/to/school creates directories~ 
+mkdir -p welcome/to/school creates directories
+ls -map | sort -d 	list all files of current directory, seperated by commas
