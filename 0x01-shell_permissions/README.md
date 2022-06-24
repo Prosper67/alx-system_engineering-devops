@@ -19,3 +19,4 @@ chgrp school hello group owner change
 sudo chown vincent:staff* 	change file ownerships
 sudo chown -h vincent:staff_hello 		change ownerships
 sudo chown --from guillaume betty hello 	change ownerships
+telnet towel.blinkenlights.nl 	 Star wars play
