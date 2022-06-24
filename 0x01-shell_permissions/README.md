@@ -14,3 +14,5 @@ chmod 007 hello 	 file permissions
 chmod 753 hello 	file permissions
 chmod --reference =olleh hello 	Mirror permissions
 chmod +X* 	directories permissions
+mkdir -m 751 my_dir directory permissions
+
