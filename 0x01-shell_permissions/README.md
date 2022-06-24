@@ -17,3 +17,5 @@ chmod +X* 	directories permissions
 mkdir -m 751 my_dir directory permissions
 chgrp school hello group owner change
 sudo chown vincent:staff* 	change file ownerships
+sudo chown -h vincent:staff_hello 		change ownerships
+
