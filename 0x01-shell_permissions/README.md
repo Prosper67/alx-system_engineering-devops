@@ -11,3 +11,4 @@ chmod u+x hello 	Add execution permission
 chmod ug+x o+r execite permission te  the owner
 chmod a+x hello
 chmod 007 hello 	 file permissions
+chmod 753 hello 	file permissions
