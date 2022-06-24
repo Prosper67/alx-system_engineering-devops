@@ -15,4 +15,5 @@ chmod 753 hello 	file permissions
 chmod --reference =olleh hello 	Mirror permissions
 chmod +X* 	directories permissions
 mkdir -m 751 my_dir directory permissions
-chgrp school hello group owner changes
+chgrp school hello group owner change
+sudo chown vincent:staff* 	change file ownerships
