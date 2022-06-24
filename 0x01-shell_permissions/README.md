@@ -6,3 +6,4 @@ whoami 		print the effective username of the current user
 
 id -nG		prints all the groups of the curremt user
 sudo chown betty hello 	change the owner of file hello to user betty
+touch hello 	create an empty file called hello
