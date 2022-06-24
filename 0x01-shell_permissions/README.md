@@ -13,3 +13,4 @@ chmod a+x hello
 chmod 007 hello 	 file permissions
 chmod 753 hello 	file permissions
 chmod --reference =olleh hello 	Mirror permissions
+chmod +X* 	directories permissions
