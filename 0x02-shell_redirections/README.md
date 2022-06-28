@@ -16,3 +16,4 @@ ls -t | head -10	displays 10 newest files in the directory
 sort | uniq -u	takes a list of words as input and prints only words that appear exactly once
 grep "root" /etc/passwd	dislay files containing pattern "root"
 grep -c "bin" /etc/passwd	display number of lines that contain pattern "bin"
+grep root /etc/passwd --after-context=3 	Display pattern root and 3 lines after
