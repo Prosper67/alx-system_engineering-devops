@@ -22,3 +22,4 @@ grep '^[[:alpha:]]' /etc/ssh/sshd_config	display only lines of file starting wit
 tr A Z | tr c e	Replace characters
 tr -d 'cC' 	remove all letters from input
 rev 	reverse input
+cut -d : -f 1,6 /etc/passwd | sort	display all users and their home directories
