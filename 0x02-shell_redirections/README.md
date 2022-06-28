@@ -9,3 +9,4 @@ head -10 /etc/passwd 	Print first 10 lines of file
 head -n file | tail -n 1	Displays third line of a file
 echo "text" > file	Create new file with text
 ls -la > ls_cwd_content	write content into a file
+ls -1 iacta >> iacta duplicate last line of file
