@@ -12,3 +12,4 @@ ls -la > ls_cwd_content	write content into a file
 ls -1 iacta >> iacta duplicate last line of file
 find -name "*.js" -type f-delete delete all regular files
 find -mindepth 1 -type d | wc -l	count the number of directories and sub-directories
+ls -t | head -10	displays 10 newest files in the directory
