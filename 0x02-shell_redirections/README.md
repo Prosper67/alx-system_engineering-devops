@@ -13,3 +13,4 @@ ls -1 iacta >> iacta duplicate last line of file
 find -name "*.js" -type f-delete delete all regular files
 find -mindepth 1 -type d | wc -l	count the number of directories and sub-directories
 ls -t | head -10	displays 10 newest files in the directory
+sort | uniq -u	takes a list of words as input and prints only words that appear exactly once
