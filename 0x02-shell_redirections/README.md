@@ -15,3 +15,4 @@ find -mindepth 1 -type d | wc -l	count the number of directories and sub-directo
 ls -t | head -10	displays 10 newest files in the directory
 sort | uniq -u	takes a list of words as input and prints only words that appear exactly once
 grep "root" /etc/passwd	dislay files containing pattern "root"
+grep -c "bin" /etc/passwd	display number of lines that contain pattern "bin"
