@@ -23,3 +23,4 @@ tr A Z | tr c e	Replace characters
 tr -d 'cC' 	remove all letters from input
 rev 	reverse input
 cut -d : -f 1,6 /etc/passwd | sort	display all users and their home directories
+find .-empty -printf "%f\n" find all empty files and directories in the current directory and sub-directories
