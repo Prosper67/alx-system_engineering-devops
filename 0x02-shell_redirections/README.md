@@ -18,3 +18,4 @@ grep "root" /etc/passwd	dislay files containing pattern "root"
 grep -c "bin" /etc/passwd	display number of lines that contain pattern "bin"
 grep root /etc/passwd --after-context=3 	Display pattern root and 3 lines after
 grep -v bin /etc/passwd display all the lines in the file
+grep '^[[:alpha:]]' /etc/ssh/sshd_config	display only lines of file starting with a letter
