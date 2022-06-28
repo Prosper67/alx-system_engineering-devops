@@ -24,3 +24,4 @@ tr -d 'cC' 	remove all letters from input
 rev 	reverse input
 cut -d : -f 1,6 /etc/passwd | sort	display all users and their home directories
 find .-empty -printf "%f\n" find all empty files and directories in the current directory and sub-directories
+task 24:  lists all the files with a .gif extension in the current directory
